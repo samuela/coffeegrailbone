@@ -1,0 +1,1 @@
+class Committee extends Backbone.Model
