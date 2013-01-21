@@ -1,6 +1,20 @@
 coffeegrailbone
 ===============
 
+Underscore Templates in GSP pages
+---------------------------------
+
+One issue I ran into was that the syntax for Underscore templates is very 
+similar to the GSP syntax and the conflict was giving me some very strange 
+errors as Grails was attempting to handle the Underscore templates. In order 
+to get around this, I simply changed the Underscore template syntax settings 
+as discussed here: http://lauripiispanen.github.com/blog/2012/01/31/building-a-backend-for-backbone-dot-js-todos-example-with-grails-and-mongodb/.
+
+Of course, by no means are we required to use Underscore templates. There 
+are a bunch of competitors out there (Mustache and EJS come to mind). The 
+advantage of Underscore being that it is built into Underscore which is 
+required by Backbone.
+
 REST and URL Mappings
 ---------------------
 
